@@ -1,0 +1,162 @@
+{
+ "success": true,
+ "data": {
+  "trainNumber": "12903",
+  "trainName": "Golden Temple Mail",
+  "startDate": "2026-09-28",
+  "lastUpdatedAt": "2026-09-28T21:25:00+05:30",
+  "status": "not-started",
+  "train": {
+   "number": "12903",
+   "name": "Golden Temple Mail",
+   "type": "MAIL/EXPRESS",
+   "category": "Mail/Express",
+   "source": {
+    "code": "BCT",
+    "name": "Mumbai Central",
+    "lat": 18.9703,
+    "lng": 72.8193
+   },
+   "destination": {
+    "code": "ASR",
+    "name": "Amritsar Jn",
+    "lat": 31.634,
+    "lng": 74.8723
+   },
+   "runDays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+   ],
+   "distance": 1893.0,
+   "duration": 1910,
+   "totalHalts": 9
+  },
+  "isLive": false,
+  "trackingMode": "off",
+  "currentLocation": {
+   "stationCode": "BCT",
+   "stationName": "Mumbai Central",
+   "sequence": 1,
+   "status": "at-station",
+   "isHalt": true,
+   "isActualPosition": true,
+   "positionSource": "station-code",
+   "distanceFromOriginKm": 0,
+   "distanceFromLastStationKm": 0,
+   "delayMinutes": 0
+  },
+  "delayMinutes": 0,
+  "route": [
+   {
+    "sequence": 1,
+    "stationCode": "BCT",
+    "stationName": "Mumbai Central",
+    "isHalt": true,
+    "status": "at-station",
+    "distance": 0,
+    "scheduledDeparture": "2026-09-28T21:25:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 130.0
+   },
+   {
+    "sequence": 2,
+    "stationCode": "ST",
+    "stationName": "Surat",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 263,
+    "scheduledArrival": "2026-09-28T23:07:00+05:30",
+    "scheduledDeparture": "2026-09-28T23:09:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 54.1
+   },
+   {
+    "sequence": 3,
+    "stationCode": "BRC",
+    "stationName": "Vadodara Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 392,
+    "scheduledArrival": "2026-09-29T01:32:00+05:30",
+    "scheduledDeparture": "2026-09-29T01:37:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 98.9
+   },
+   {
+    "sequence": 4,
+    "stationCode": "RTM",
+    "stationName": "Ratlam Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 730,
+    "scheduledArrival": "2026-09-29T05:02:00+05:30",
+    "scheduledDeparture": "2026-09-29T05:07:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 93.0
+   },
+   {
+    "sequence": 5,
+    "stationCode": "KOTA",
+    "stationName": "Kota Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1068,
+    "scheduledArrival": "2026-09-29T08:45:00+05:30",
+    "scheduledDeparture": "2026-09-29T08:50:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 52.1
+   },
+   {
+    "sequence": 6,
+    "stationCode": "AGC",
+    "stationName": "Agra Cantt",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1350,
+    "scheduledArrival": "2026-09-29T14:15:00+05:30",
+    "scheduledDeparture": "2026-09-29T14:20:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 28.7
+   },
+   {
+    "sequence": 7,
+    "stationCode": "NDLS",
+    "stationName": "New Delhi",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1441,
+    "scheduledArrival": "2026-09-29T17:30:00+05:30",
+    "scheduledDeparture": "2026-09-29T17:45:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 41.0
+   },
+   {
+    "sequence": 8,
+    "stationCode": "LDH",
+    "stationName": "Ludhiana Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1745,
+    "scheduledArrival": "2026-09-30T01:10:00+05:30",
+    "scheduledDeparture": "2026-09-30T01:20:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 37.8
+   },
+   {
+    "sequence": 9,
+    "stationCode": "ASR",
+    "stationName": "Amritsar Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1893,
+    "scheduledArrival": "2026-09-30T05:15:00+05:30",
+    "platform": "1"
+   }
+  ]
+ }
+}

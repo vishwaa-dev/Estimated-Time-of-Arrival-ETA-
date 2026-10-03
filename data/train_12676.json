@@ -1,0 +1,102 @@
+{
+ "success": true,
+ "data": {
+  "trainNumber": "12676",
+  "trainName": "Kovai Express",
+  "startDate": "2026-09-28",
+  "lastUpdatedAt": "2026-09-28T06:10:00+05:30",
+  "status": "not-started",
+  "train": {
+   "number": "12676",
+   "name": "Kovai Express",
+   "type": "SUPERFAST",
+   "category": "Superfast",
+   "source": {
+    "code": "CBE",
+    "name": "Coimbatore Jn",
+    "lat": 11.0018,
+    "lng": 76.9628
+   },
+   "destination": {
+    "code": "MS",
+    "name": "Chennai Egmore",
+    "lat": 13.0777,
+    "lng": 80.2613
+   },
+   "runDays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+   ],
+   "distance": 496.0,
+   "duration": 425,
+   "totalHalts": 4
+  },
+  "isLive": false,
+  "trackingMode": "off",
+  "currentLocation": {
+   "stationCode": "CBE",
+   "stationName": "Coimbatore Jn",
+   "sequence": 1,
+   "status": "at-station",
+   "isHalt": true,
+   "isActualPosition": true,
+   "positionSource": "station-code",
+   "distanceFromOriginKm": 0,
+   "distanceFromLastStationKm": 0,
+   "delayMinutes": 0
+  },
+  "delayMinutes": 0,
+  "route": [
+   {
+    "sequence": 1,
+    "stationCode": "CBE",
+    "stationName": "Coimbatore Jn",
+    "isHalt": true,
+    "status": "at-station",
+    "distance": 0,
+    "scheduledDeparture": "2026-09-28T06:10:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 60.0
+   },
+   {
+    "sequence": 2,
+    "stationCode": "TPJ",
+    "stationName": "Tiruchchirappalli Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 215,
+    "scheduledArrival": "2026-09-28T09:45:00+05:30",
+    "scheduledDeparture": "2026-09-28T09:50:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 62.3
+   },
+   {
+    "sequence": 3,
+    "stationCode": "VM",
+    "stationName": "Villupuram Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 351,
+    "scheduledArrival": "2026-09-28T12:01:00+05:30",
+    "scheduledDeparture": "2026-09-28T12:06:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 126.1
+   },
+   {
+    "sequence": 4,
+    "stationCode": "MS",
+    "stationName": "Chennai Egmore",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 496,
+    "scheduledArrival": "2026-09-28T13:15:00+05:30",
+    "platform": "4"
+   }
+  ]
+ }
+}

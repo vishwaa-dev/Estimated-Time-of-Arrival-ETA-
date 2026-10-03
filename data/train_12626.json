@@ -1,0 +1,198 @@
+{
+ "success": true,
+ "data": {
+  "trainNumber": "12626",
+  "trainName": "Kerala Express",
+  "startDate": "2026-09-28",
+  "lastUpdatedAt": "2026-09-28T11:15:00+05:30",
+  "status": "not-started",
+  "train": {
+   "number": "12626",
+   "name": "Kerala Express",
+   "type": "SUPERFAST",
+   "category": "Superfast",
+   "source": {
+    "code": "TVC",
+    "name": "Thiruvananthapuram Central",
+    "lat": 8.4875,
+    "lng": 76.9525
+   },
+   "destination": {
+    "code": "NDLS",
+    "name": "New Delhi",
+    "lat": 28.6425,
+    "lng": 77.2199
+   },
+   "runDays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+   ],
+   "distance": 3054.0,
+   "duration": 3054,
+   "totalHalts": 12
+  },
+  "isLive": false,
+  "trackingMode": "off",
+  "currentLocation": {
+   "stationCode": "TVC",
+   "stationName": "Thiruvananthapuram Central",
+   "sequence": 1,
+   "status": "at-station",
+   "isHalt": true,
+   "isActualPosition": true,
+   "positionSource": "station-code",
+   "distanceFromOriginKm": 0,
+   "distanceFromLastStationKm": 0,
+   "delayMinutes": 0
+  },
+  "delayMinutes": 0,
+  "route": [
+   {
+    "sequence": 1,
+    "stationCode": "TVC",
+    "stationName": "Thiruvananthapuram Central",
+    "isHalt": true,
+    "status": "at-station",
+    "distance": 0,
+    "scheduledDeparture": "2026-09-28T11:15:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 77.6
+   },
+   {
+    "sequence": 2,
+    "stationCode": "ERS",
+    "stationName": "Ernakulam Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 220,
+    "scheduledArrival": "2026-09-28T14:05:00+05:30",
+    "scheduledDeparture": "2026-09-28T14:10:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 49.2
+   },
+   {
+    "sequence": 3,
+    "stationCode": "CBE",
+    "stationName": "Coimbatore Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 425,
+    "scheduledArrival": "2026-09-28T18:20:00+05:30",
+    "scheduledDeparture": "2026-09-28T18:25:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 61.0
+   },
+   {
+    "sequence": 4,
+    "stationCode": "JTJ",
+    "stationName": "Jolarpettai Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 738,
+    "scheduledArrival": "2026-09-28T23:33:00+05:30",
+    "scheduledDeparture": "2026-09-28T23:38:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 61.4
+   },
+   {
+    "sequence": 5,
+    "stationCode": "SBC",
+    "stationName": "KSR Bengaluru",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 953,
+    "scheduledArrival": "2026-09-29T03:08:00+05:30",
+    "scheduledDeparture": "2026-09-29T03:18:00+05:30",
+    "platform": "9",
+    "speedToNextStationKmph": 61.6
+   },
+   {
+    "sequence": 6,
+    "stationCode": "SC",
+    "stationName": "Secunderabad Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1339,
+    "scheduledArrival": "2026-09-29T09:34:00+05:30",
+    "scheduledDeparture": "2026-09-29T09:44:00+05:30",
+    "platform": "10",
+    "speedToNextStationKmph": 61.6
+   },
+   {
+    "sequence": 7,
+    "stationCode": "BZA",
+    "stationName": "Vijayawada Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1731,
+    "scheduledArrival": "2026-09-29T16:06:00+05:30",
+    "scheduledDeparture": "2026-09-29T16:11:00+05:30",
+    "platform": "5",
+    "speedToNextStationKmph": 61.3
+   },
+   {
+    "sequence": 8,
+    "stationCode": "BPQ",
+    "stationName": "Balharshah",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1968,
+    "scheduledArrival": "2026-09-29T20:03:00+05:30",
+    "scheduledDeparture": "2026-09-29T20:08:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 60.7
+   },
+   {
+    "sequence": 9,
+    "stationCode": "NGP",
+    "stationName": "Nagpur Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 2378,
+    "scheduledArrival": "2026-09-30T02:53:00+05:30",
+    "scheduledDeparture": "2026-09-30T02:58:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 60.9
+   },
+   {
+    "sequence": 10,
+    "stationCode": "BPL",
+    "stationName": "Bhopal Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 2713,
+    "scheduledArrival": "2026-09-30T08:28:00+05:30",
+    "scheduledDeparture": "2026-09-30T08:33:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 61.3
+   },
+   {
+    "sequence": 11,
+    "stationCode": "AGC",
+    "stationName": "Agra Cantt",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 2946,
+    "scheduledArrival": "2026-09-30T12:21:00+05:30",
+    "scheduledDeparture": "2026-09-30T12:23:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 61.1
+   },
+   {
+    "sequence": 12,
+    "stationCode": "NDLS",
+    "stationName": "New Delhi",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 3054,
+    "scheduledArrival": "2026-09-30T14:09:00+05:30",
+    "platform": "1"
+   }
+  ]
+ }
+}

@@ -1,0 +1,7 @@
+# Keep source files readable on every OS regardless of core.autocrlf
+*.bat text eol=crlf
+*.py text eol=lf
+*.json text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf

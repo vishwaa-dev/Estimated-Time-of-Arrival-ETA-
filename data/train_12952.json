@@ -1,0 +1,114 @@
+{
+ "success": true,
+ "data": {
+  "trainNumber": "12952",
+  "trainName": "Mumbai Rajdhani Express",
+  "startDate": "2026-09-28",
+  "lastUpdatedAt": "2026-09-28T16:25:00+05:30",
+  "status": "not-started",
+  "train": {
+   "number": "12952",
+   "name": "Mumbai Rajdhani Express",
+   "type": "RAJDHANI",
+   "category": "Rajdhani",
+   "source": {
+    "code": "NDLS",
+    "name": "New Delhi",
+    "lat": 28.6425,
+    "lng": 77.2199
+   },
+   "destination": {
+    "code": "BCT",
+    "name": "Mumbai Central",
+    "lat": 18.9703,
+    "lng": 72.8193
+   },
+   "runDays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+   ],
+   "distance": 1384.0,
+   "duration": 950,
+   "totalHalts": 5
+  },
+  "isLive": false,
+  "trackingMode": "off",
+  "currentLocation": {
+   "stationCode": "NDLS",
+   "stationName": "New Delhi",
+   "sequence": 1,
+   "status": "at-station",
+   "isHalt": true,
+   "isActualPosition": true,
+   "positionSource": "station-code",
+   "distanceFromOriginKm": 0,
+   "distanceFromLastStationKm": 0,
+   "delayMinutes": 0
+  },
+  "delayMinutes": 0,
+  "route": [
+   {
+    "sequence": 1,
+    "stationCode": "NDLS",
+    "stationName": "New Delhi",
+    "isHalt": true,
+    "status": "at-station",
+    "distance": 0,
+    "scheduledDeparture": "2026-09-28T16:25:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 93.2
+   },
+   {
+    "sequence": 2,
+    "stationCode": "KOTA",
+    "stationName": "Kota Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 458,
+    "scheduledArrival": "2026-09-28T21:20:00+05:30",
+    "scheduledDeparture": "2026-09-28T21:25:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 101.3
+   },
+   {
+    "sequence": 3,
+    "stationCode": "RTM",
+    "stationName": "Ratlam Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 821,
+    "scheduledArrival": "2026-09-29T01:00:00+05:30",
+    "scheduledDeparture": "2026-09-29T01:05:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 91.9
+   },
+   {
+    "sequence": 4,
+    "stationCode": "BRC",
+    "stationName": "Vadodara Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1089,
+    "scheduledArrival": "2026-09-29T04:00:00+05:30",
+    "scheduledDeparture": "2026-09-29T04:10:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 72.2
+   },
+   {
+    "sequence": 5,
+    "stationCode": "BCT",
+    "stationName": "Mumbai Central",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1384,
+    "scheduledArrival": "2026-09-29T08:15:00+05:30",
+    "platform": "6"
+   }
+  ]
+ }
+}

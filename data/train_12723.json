@@ -1,0 +1,126 @@
+{
+ "success": true,
+ "data": {
+  "trainNumber": "12723",
+  "trainName": "Telangana Express",
+  "startDate": "2026-09-28",
+  "lastUpdatedAt": "2026-09-28T06:25:00+05:30",
+  "status": "not-started",
+  "train": {
+   "number": "12723",
+   "name": "Telangana Express",
+   "type": "SUPERFAST",
+   "category": "Superfast",
+   "source": {
+    "code": "HYB",
+    "name": "Hyderabad Deccan",
+    "lat": 17.385,
+    "lng": 78.4867
+   },
+   "destination": {
+    "code": "NDLS",
+    "name": "New Delhi",
+    "lat": 28.6425,
+    "lng": 77.2199
+   },
+   "runDays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+   ],
+   "distance": 1661.0,
+   "duration": 1661,
+   "totalHalts": 6
+  },
+  "isLive": false,
+  "trackingMode": "off",
+  "currentLocation": {
+   "stationCode": "HYB",
+   "stationName": "Hyderabad Deccan",
+   "sequence": 1,
+   "status": "at-station",
+   "isHalt": true,
+   "isActualPosition": true,
+   "positionSource": "station-code",
+   "distanceFromOriginKm": 0,
+   "distanceFromLastStationKm": 0,
+   "delayMinutes": 0
+  },
+  "delayMinutes": 0,
+  "route": [
+   {
+    "sequence": 1,
+    "stationCode": "HYB",
+    "stationName": "Hyderabad Deccan",
+    "isHalt": true,
+    "status": "at-station",
+    "distance": 0,
+    "scheduledDeparture": "2026-09-28T06:25:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 60.0
+   },
+   {
+    "sequence": 2,
+    "stationCode": "KZJ",
+    "stationName": "Kazipet Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 209,
+    "scheduledArrival": "2026-09-28T09:54:00+05:30",
+    "scheduledDeparture": "2026-09-28T09:59:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 60.6
+   },
+   {
+    "sequence": 3,
+    "stationCode": "NGP",
+    "stationName": "Nagpur Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 749,
+    "scheduledArrival": "2026-09-28T18:54:00+05:30",
+    "scheduledDeparture": "2026-09-28T18:59:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 60.8
+   },
+   {
+    "sequence": 4,
+    "stationCode": "BPL",
+    "stationName": "Bhopal Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1128,
+    "scheduledArrival": "2026-09-29T01:13:00+05:30",
+    "scheduledDeparture": "2026-09-29T01:18:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 60.9
+   },
+   {
+    "sequence": 5,
+    "stationCode": "AGC",
+    "stationName": "Agra Cantt",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1467,
+    "scheduledArrival": "2026-09-29T06:52:00+05:30",
+    "scheduledDeparture": "2026-09-29T06:54:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 60.6
+   },
+   {
+    "sequence": 6,
+    "stationCode": "NDLS",
+    "stationName": "New Delhi",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1661,
+    "scheduledArrival": "2026-09-29T10:06:00+05:30",
+    "platform": "1"
+   }
+  ]
+ }
+}

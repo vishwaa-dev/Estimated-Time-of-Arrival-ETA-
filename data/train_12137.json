@@ -1,0 +1,174 @@
+{
+ "success": true,
+ "data": {
+  "trainNumber": "12137",
+  "trainName": "Punjab Mail",
+  "startDate": "2026-09-28",
+  "lastUpdatedAt": "2026-09-28T19:35:00+05:30",
+  "status": "not-started",
+  "train": {
+   "number": "12137",
+   "name": "Punjab Mail",
+   "type": "MAIL/EXPRESS",
+   "category": "Mail/Express",
+   "source": {
+    "code": "CSMT",
+    "name": "Mumbai CSMT",
+    "lat": 18.9401,
+    "lng": 72.8355
+   },
+   "destination": {
+    "code": "FZR",
+    "name": "Firozpur Cantt",
+    "lat": 30.9165,
+    "lng": 75.8496
+   },
+   "runDays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+   ],
+   "distance": 1931.0,
+   "duration": 1755,
+   "totalHalts": 10
+  },
+  "isLive": false,
+  "trackingMode": "off",
+  "currentLocation": {
+   "stationCode": "CSMT",
+   "stationName": "Mumbai CSMT",
+   "sequence": 1,
+   "status": "at-station",
+   "isHalt": true,
+   "isActualPosition": true,
+   "positionSource": "station-code",
+   "distanceFromOriginKm": 0,
+   "distanceFromLastStationKm": 0,
+   "delayMinutes": 0
+  },
+  "delayMinutes": 0,
+  "route": [
+   {
+    "sequence": 1,
+    "stationCode": "CSMT",
+    "stationName": "Mumbai CSMT",
+    "isHalt": true,
+    "status": "at-station",
+    "distance": 0,
+    "scheduledDeparture": "2026-09-28T19:35:00+05:30",
+    "platform": "18",
+    "speedToNextStationKmph": 58.1
+   },
+   {
+    "sequence": 2,
+    "stationCode": "NK",
+    "stationName": "Nashik Road",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 187,
+    "scheduledArrival": "2026-09-28T22:48:00+05:30",
+    "scheduledDeparture": "2026-09-28T22:50:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 126.0
+   },
+   {
+    "sequence": 3,
+    "stationCode": "BSL",
+    "stationName": "Bhusaval Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 586,
+    "scheduledArrival": "2026-09-29T02:00:00+05:30",
+    "scheduledDeparture": "2026-09-29T02:05:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 78.4
+   },
+   {
+    "sequence": 4,
+    "stationCode": "ET",
+    "stationName": "Itarsi Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 808,
+    "scheduledArrival": "2026-09-29T04:55:00+05:30",
+    "scheduledDeparture": "2026-09-29T05:00:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 66.5
+   },
+   {
+    "sequence": 5,
+    "stationCode": "BPL",
+    "stationName": "Bhopal Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1002,
+    "scheduledArrival": "2026-09-29T07:55:00+05:30",
+    "scheduledDeparture": "2026-09-29T08:00:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 81.1
+   },
+   {
+    "sequence": 6,
+    "stationCode": "JHS",
+    "stationName": "Jhansi Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1313,
+    "scheduledArrival": "2026-09-29T11:50:00+05:30",
+    "scheduledDeparture": "2026-09-29T11:55:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 50.7
+   },
+   {
+    "sequence": 7,
+    "stationCode": "NDLS",
+    "stationName": "New Delhi",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1541,
+    "scheduledArrival": "2026-09-29T16:25:00+05:30",
+    "scheduledDeparture": "2026-09-29T16:45:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 75.5
+   },
+   {
+    "sequence": 8,
+    "stationCode": "UMB",
+    "stationName": "Ambala Cantt Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1818,
+    "scheduledArrival": "2026-09-29T20:25:00+05:30",
+    "scheduledDeparture": "2026-09-29T20:35:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 89.0
+   },
+   {
+    "sequence": 9,
+    "stationCode": "LDH",
+    "stationName": "Ludhiana Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1907,
+    "scheduledArrival": "2026-09-29T21:35:00+05:30",
+    "scheduledDeparture": "2026-09-29T21:45:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 25.0
+   },
+   {
+    "sequence": 10,
+    "stationCode": "FZR",
+    "stationName": "Firozpur Cantt",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1931,
+    "scheduledArrival": "2026-09-30T00:50:00+05:30",
+    "platform": "2"
+   }
+  ]
+ }
+}

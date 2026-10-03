@@ -1,0 +1,150 @@
+{
+ "success": true,
+ "data": {
+  "trainNumber": "12801",
+  "trainName": "Purushottam Express",
+  "startDate": "2026-09-28",
+  "lastUpdatedAt": "2026-09-28T21:40:00+05:30",
+  "status": "not-started",
+  "train": {
+   "number": "12801",
+   "name": "Purushottam Express",
+   "type": "EXPRESS",
+   "category": "Express",
+   "source": {
+    "code": "PURI",
+    "name": "Puri",
+    "lat": 19.8135,
+    "lng": 85.8312
+   },
+   "destination": {
+    "code": "NDLS",
+    "name": "New Delhi",
+    "lat": 28.6425,
+    "lng": 77.2199
+   },
+   "runDays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+   ],
+   "distance": 2028.0,
+   "duration": 1990,
+   "totalHalts": 8
+  },
+  "isLive": false,
+  "trackingMode": "off",
+  "currentLocation": {
+   "stationCode": "PURI",
+   "stationName": "Puri",
+   "sequence": 1,
+   "status": "at-station",
+   "isHalt": true,
+   "isActualPosition": true,
+   "positionSource": "station-code",
+   "distanceFromOriginKm": 0,
+   "distanceFromLastStationKm": 0,
+   "delayMinutes": 0
+  },
+  "delayMinutes": 0,
+  "route": [
+   {
+    "sequence": 1,
+    "stationCode": "PURI",
+    "stationName": "Puri",
+    "isHalt": true,
+    "status": "at-station",
+    "distance": 0,
+    "scheduledDeparture": "2026-09-28T21:40:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 42.0
+   },
+   {
+    "sequence": 2,
+    "stationCode": "BBS",
+    "stationName": "Bhubaneswar",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 63,
+    "scheduledArrival": "2026-09-28T23:10:00+05:30",
+    "scheduledDeparture": "2026-09-28T23:15:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 68.0
+   },
+   {
+    "sequence": 3,
+    "stationCode": "KGP",
+    "stationName": "Kharagpur Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 318,
+    "scheduledArrival": "2026-09-29T03:00:00+05:30",
+    "scheduledDeparture": "2026-09-29T03:05:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 75.1
+   },
+   {
+    "sequence": 4,
+    "stationCode": "ASN",
+    "stationName": "Asansol Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 577,
+    "scheduledArrival": "2026-09-29T06:32:00+05:30",
+    "scheduledDeparture": "2026-09-29T06:37:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 51.8
+   },
+   {
+    "sequence": 5,
+    "stationCode": "MGS",
+    "stationName": "Pt DD Upadhyaya Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 882,
+    "scheduledArrival": "2026-09-29T12:30:00+05:30",
+    "scheduledDeparture": "2026-09-29T12:40:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 64.9
+   },
+   {
+    "sequence": 6,
+    "stationCode": "ALD",
+    "stationName": "Prayagraj Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1082,
+    "scheduledArrival": "2026-09-29T15:45:00+05:30",
+    "scheduledDeparture": "2026-09-29T15:50:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 62.9
+   },
+   {
+    "sequence": 7,
+    "stationCode": "CNB",
+    "stationName": "Kanpur Central",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1339,
+    "scheduledArrival": "2026-09-29T19:55:00+05:30",
+    "scheduledDeparture": "2026-09-29T20:00:00+05:30",
+    "platform": "6",
+    "speedToNextStationKmph": 63.6
+   },
+   {
+    "sequence": 8,
+    "stationCode": "NDLS",
+    "stationName": "New Delhi",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 2028,
+    "scheduledArrival": "2026-09-30T06:50:00+05:30",
+    "platform": "1"
+   }
+  ]
+ }
+}

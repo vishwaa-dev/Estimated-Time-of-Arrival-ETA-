@@ -1,0 +1,126 @@
+{
+ "success": true,
+ "data": {
+  "trainNumber": "12841",
+  "trainName": "Coromandel Express",
+  "startDate": "2026-09-28",
+  "lastUpdatedAt": "2026-09-28T14:50:00+05:30",
+  "status": "not-started",
+  "train": {
+   "number": "12841",
+   "name": "Coromandel Express",
+   "type": "SUPERFAST",
+   "category": "Superfast",
+   "source": {
+    "code": "SHM",
+    "name": "Sealdah",
+    "lat": 22.5839,
+    "lng": 88.3425
+   },
+   "destination": {
+    "code": "MAS",
+    "name": "MGR Chennai Central",
+    "lat": 13.0827,
+    "lng": 80.2757
+   },
+   "runDays": [
+    "mon",
+    "tue",
+    "wed",
+    "thu",
+    "fri",
+    "sat",
+    "sun"
+   ],
+   "distance": 1662.0,
+   "duration": 1560,
+   "totalHalts": 6
+  },
+  "isLive": false,
+  "trackingMode": "off",
+  "currentLocation": {
+   "stationCode": "SHM",
+   "stationName": "Sealdah",
+   "sequence": 1,
+   "status": "at-station",
+   "isHalt": true,
+   "isActualPosition": true,
+   "positionSource": "station-code",
+   "distanceFromOriginKm": 0,
+   "distanceFromLastStationKm": 0,
+   "delayMinutes": 0
+  },
+  "delayMinutes": 0,
+  "route": [
+   {
+    "sequence": 1,
+    "stationCode": "SHM",
+    "stationName": "Sealdah",
+    "isHalt": true,
+    "status": "at-station",
+    "distance": 0,
+    "scheduledDeparture": "2026-09-28T14:50:00+05:30",
+    "platform": "9",
+    "speedToNextStationKmph": 60.4
+   },
+   {
+    "sequence": 2,
+    "stationCode": "KGP",
+    "stationName": "Kharagpur Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 166,
+    "scheduledArrival": "2026-09-28T17:35:00+05:30",
+    "scheduledDeparture": "2026-09-28T17:40:00+05:30",
+    "platform": "3",
+    "speedToNextStationKmph": 60.9
+   },
+   {
+    "sequence": 3,
+    "stationCode": "BBS",
+    "stationName": "Bhubaneswar",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 437,
+    "scheduledArrival": "2026-09-28T22:07:00+05:30",
+    "scheduledDeparture": "2026-09-28T22:12:00+05:30",
+    "platform": "1",
+    "speedToNextStationKmph": 60.7
+   },
+   {
+    "sequence": 4,
+    "stationCode": "VSKP",
+    "stationName": "Visakhapatnam",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 847,
+    "scheduledArrival": "2026-09-29T04:57:00+05:30",
+    "scheduledDeparture": "2026-09-29T05:07:00+05:30",
+    "platform": "2",
+    "speedToNextStationKmph": 61.3
+   },
+   {
+    "sequence": 5,
+    "stationCode": "BZA",
+    "stationName": "Vijayawada Jn",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1316,
+    "scheduledArrival": "2026-09-29T12:46:00+05:30",
+    "scheduledDeparture": "2026-09-29T12:51:00+05:30",
+    "platform": "5",
+    "speedToNextStationKmph": 86.9
+   },
+   {
+    "sequence": 6,
+    "stationCode": "MAS",
+    "stationName": "MGR Chennai Central",
+    "isHalt": true,
+    "status": "upcoming",
+    "distance": 1662,
+    "scheduledArrival": "2026-09-29T16:50:00+05:30",
+    "platform": "9"
+   }
+  ]
+ }
+}

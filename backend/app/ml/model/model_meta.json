@@ -1,0 +1,25 @@
+{
+  "trained_at": "2026-10-03T12:30:58.371642+00:00",
+  "n_samples": 4000,
+  "r2_test": 0.82,
+  "mae_test_minutes": 4.144,
+  "feature_names": [
+    "current_delay_minutes",
+    "previous_delay_minutes",
+    "current_speed_kmph",
+    "average_speed_kmph",
+    "speed_deviation",
+    "running_delay_minutes",
+    "distance_remaining_km",
+    "upcoming_stop_count",
+    "dwell_deviation_minutes",
+    "weather_risk_score",
+    "rainfall",
+    "wind_speed",
+    "visibility",
+    "time_of_day",
+    "route_slack_minutes",
+    "recovery_potential_minutes"
+  ],
+  "data_label": "Prototype / synthetic training data (noisy rule-estimator labels)"
+}
