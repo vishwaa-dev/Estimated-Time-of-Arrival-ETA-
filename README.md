@@ -1,6 +1,4 @@
-# 🚄 RailCast AI
-
-**SIH26028 — Dynamic Forecast of Expected Time of Arrival (ETA) for Coaching Trains**
+RailCast AI
 
 > **"Don't just predict arrival. Forecast the journey of the delay."**
 
